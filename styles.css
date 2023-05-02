@@ -22,3 +22,30 @@ body {
 .mt-3 {
     color: #000000;
 }
+h3.text-center.mb-4 {
+    position: relative;
+  }
+  
+  h3.text-center.mb-4:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 9%;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+  }
+  h1.text-center.mb-4 {
+    position: relative;
+  }
+  
+  h1.text-center.mb-4:after {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: 9%;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+  }
+  
