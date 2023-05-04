@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Academic Management System</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand">Academic</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a>Academic Management System</a>
-        </li>
-      </ul>
+  <head>
+    <meta charset="utf-8" />
+    <title>Academic Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand">Academic</a>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link">Academic Management System</a>
+          </li>
+        </ul>
+      </div>
+      <a class="nav-link" href="login.html">Logout</a>
+    </nav>
+    <div class="container mt-5">
+      <a href="CreateNewDegreeProgramme.html"><button class="button">Create New Degree Programme</button></a>
     </div>
-    <a class="logout" href="login.html">Logout</a>
-  </nav>
-  <div class="container mt-5">
-    <button class="button">Create New Degree Programme</button>
-  </div>
-  <div class="container mt-5">
-    <button class="button">Create Module</button>
-  </div>
-  <footer>  
-     <div class="ScheduleAssessmentDates">
-    <button class="button">Schedule assessment dates</button>
-  </div>
- </footer>
-</body>
+    <div class="container mt-5">
+      <a href="CreateModule.html"><button class="button">Create Module</button></a>
+    </div>
+    <footer>  
+      <div class="container mt-5">
+        <a href="ScheduleAssessmentDates.html"><button class="button">Schedule assessment dates</button></a>
+      </div>
+    </footer>
+  </body>
 </html>

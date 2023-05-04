@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Academic Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand">Academic</a>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link">Schedule assessment dates</a>
+          </li>
+        </ul>
+      </div>
+      <a class="nav-link" href="login.html">Logout</a>
+    </nav>
+    <div class="container mt-5">
+      <form>
+        <div class="form-group">
+          <label for="course-code">Course Code:</label>
+          <input type="text" class="form-control" id="course-code" name="course-code">
+        </div>
+        <div class="form-group">
+          <label for="course-name">Course Name:</label>
+          <input type="text" class="form-control" id="course-name" name="course-name">
+        </div>
+        <div class="form-group">
+          <label for="start-date">Start Date:</label>
+          <input type="date" class="form-control" id="start-date" name="start-date">
+        </div>
+        <div class="form-group">
+          <label for="end-date">End Date:</label>
+          <input type="date" class="form-control" id="end-date" name="end-date">
+        </div>
+        <button type="submit" class="btn btn-dark">Schedule Dates</button>
+      </form>
+    </div>
+  </body>
+</html>

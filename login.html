@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <script src="login.js"></script>
   </head>
   <body>
     <div class="container">
@@ -30,5 +29,24 @@
         </div>
       </div>
     </div>
+    <script>
+      $('#login-form').on('submit', function(e) {
+    e.preventDefault();
+    const email = $('#email').val();
+    const password = $('#password').val();
+    // Checks if the email and password are correct
+    if ((email === 'academic@gmail.com' || email === 'headofdepartment@gmail.com') && password === 'password') {
+       // If the email and password are correct, it will redirect the user to their specified page
+        if (email === 'academic@gmail.com') {
+        window.location.href = 'AcademicHome.html';
+      } else {
+        window.location.href = 'HeadOfDepartmentHome.html';
+      }
+    } else {
+        // If the email and password are incorrect, show an error message
+      alert('Invalid email or password.');
+    }
+  });
+    </script>
   </body>
 </html>

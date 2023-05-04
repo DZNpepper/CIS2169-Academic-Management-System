@@ -9,7 +9,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,.15);
 }
 .button {
-    background-color: #303030;
+    background-color: #6d6b6b;
     color: #2a2a2a;
     margin-right: 10px;
     border: none;
@@ -48,4 +48,15 @@ h3.text-center.mb-4 {
     height: 2px;
     background-color: black;
   }
-  
+  nav {
+    background-color: #000000;
+  }
+  .navbar-brand,
+  .nav-link {
+    color: #FFFFFF;
+  }
+  .navbar-brand {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
